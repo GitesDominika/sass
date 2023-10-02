@@ -1,0 +1,42 @@
+/* .menu{}
+
+.menu .menu__item {}
+
+.menu .menu__item .menu .menu_item--active{}
+
+.menu{
+  .menu .menu__item{
+    .menu .menu__item .menu .menu_item--active{}
+
+  }
+} */
+
+.menu{ background-color: peru;
+  &_item{ color: blue; text-decoration: none;
+    &_item--active{ color:red;}
+  }
+  &:hover { background-color:lightgoldenrodyellow;
+  }
+}
+
+.header {
+  .header__inner {
+    .header__inner .logo { logo_img {
+
+    }
+    }
+  }
+}
+
+.header {
+  .header__inner {
+    .header__inner .logo { .logo_img {
+
+    }
+    }
+  }
+}
+
+
+
+
